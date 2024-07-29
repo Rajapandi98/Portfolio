@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 10px ;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.title h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 50;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a { 
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.nav-btn button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(56, 50, 92);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.new h1 {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+
+.space {
+    margin-bottom: 10px;
+}
+
+/* .btn { 
+    position: relative;
+    
+}
+
+.btn-name {
+    position: absolute;
+    transform: translate(207%, 2%);
+} */
+
+.btn-name {
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.btn-name button {
+    padding: 10px;
+}
+
+.gen {
+    margin: 50px 0px;
+
+}
+
+.clust {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+}
+
+.clust img {
+    width: 180px;
+    height: 160px;
+    margin: 5px; 
+}
+
+.crew {
+    background-color: white;
+    border-radius:5px ;
+    color: black;
+    margin: 0px 10px;
+    padding: 20px;
+}
+
+.cg-ref h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sol-u {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sample {
+    text-align: center;
+}
+
+.sample i {
+    font-size: 20px;
+}
+
+.sample p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.cle-uh {
+    margin: 20px 0px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-2 img {
+    width: 240px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.section-content-details {
+    padding: 30px;
+    width: 50%;
+}
+
+.section-content-details h2 {
+    line-height: 1.4;
+}
+
+.section-content-details p {
+    line-height: 1.5;
+    color: gray;
+    margin-top: 20px;
+    font-size:larger;
+}
+
+.btm-head h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.btm-head p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.connect {
+    width: 30%;
+}
+
+.connect p {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.least {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.form a {
+    text-decoration: none;
+}
+
+.fill label {
+    margin-right: 10px;
+}
+
+.fill input {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.last-sec {
+    margin-left: 34px;
+}
+
+.btn1 a button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: #C1D0B5;
+    display: block;
+    margin: 0px auto;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 2.5;
+    padding: 20px;
+}
+
+.links i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+

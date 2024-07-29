@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 10px ;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.title h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 50;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul li a { 
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+.nav-btn button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(56, 50, 92);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-frst img {
+    width:345px;
+    height: 390px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background-color: #E1F0DA;
+}
+.cont-first {
+    text-align: justify;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.cont-first p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.cont-first h1 {
+    margin-bottom: 20px;
+}
+
+.wrap-content {
+    display: flex;
+    column-gap: 40px;
+    padding: 10px;
+    justify-content:left;
+}
+.wrap-content-2 {
+    display: flex;
+    column-gap: 30px;
+    padding: 20px;
+    justify-content: end;
+}
+
+.cont-sec {
+    text-align: justify;
+    width: 50%;
+}
+
+.cont-sec p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.cont-sec h1 {
+    margin-bottom: 20px;
+}
+
+.img-sec img {
+    width:345px;
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.ref {
+    width: 50%;
+    margin: auto;
+}
+
+.links {
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 2.5;
+    padding: 20px;
+}
+
+.links i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+@media(max-width:500px) {
+    .nav{
+        display: block;
+        text-align: center;
+        background-color: white;
+        color: black;
+    }
+    .title {
+        font-size: larger;
+    }
+    .title h3 {
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+    .menu ul li {
+        display: block;
+        
+        }   
+    .menu ul li a {
+            color: black;
+            font-size: larger;
+        }
+
+    .cont-first {
+        width: 100%;
+    }
+    
+    .wrap-content {
+        display: block;
+    }
+
+    }
